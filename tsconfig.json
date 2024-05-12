@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",       // or "ES6"
+    "module": "ES2022",          // Use ES6 modules
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",       // Output directory for compiled files
+    "rootDir": "./src",       // Root directory for source files
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
